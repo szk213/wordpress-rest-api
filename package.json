@@ -1,0 +1,22 @@
+{
+  "name": "wordpress-rest-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/szk213/wordpress-rest-api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/szk213/wordpress-rest-api/issues"
+  },
+  "homepage": "https://github.com/szk213/wordpress-rest-api#readme",
+  "dependencies": {
+    "axios": "^0.18.0"
+  }
+}
