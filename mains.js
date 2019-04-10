@@ -8,13 +8,8 @@ const instance = axios.create({
 
 async function get(page) {
   let resp;
-  let category = encodeURIComponent("北魏");
-  //   let category = undefined;
 
-  let url = `/media?page=${page}&per_page=100`;
-  if (category) {
-    url += "&filter[media_category]=" + category;
-  }
+  let url = `/media?page=${page}&per_page=100&after=2019-01-01T00:00:00`;
 
   try {
     resp = await instance.get(url);
